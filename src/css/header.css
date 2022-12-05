@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    min-height: 94px; 
+    display: flex;
+    align-items: center;
+}
+.header-content-area {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-area {
+    display: flex;
+    align-items: center
+}
+.logo-symbol {
+    width: 81px;
+    height: 68px;
+}
+.logo-signature {
+    width: 238px;
+    height: 54px;
+}
+.nav-option {
+    color: #000 !important;
+    font-size: 17px;
+    border-bottom: 1px solid transparent;
+}
+.nav-option:hover {
+    border-bottom: 1px solid #000;
+}
+
+
+@media (max-width:700px) {
+    .logo-symbol {
+        width: 61px;
+        height: 48px;
+    }
+    .logo-signature {
+        width: 140px;
+        height: 36px;
+    }
+    .nav-option {
+        font-size: 12px !important;
+    }
+}
+@media (max-width:500px) {
+    .logo-symbol {
+        width: 41px;
+        height: 28px;
+    }
+    .logo-signature {
+        width: 100px;
+        height: 25px;
+    }
+}
