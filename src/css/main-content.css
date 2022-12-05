@@ -177,8 +177,7 @@
     #contact {
         height: auto;
         padding: 20px 0px;
-    }
-        
+    }   
 }
 
 @media (max-width:1024px) {
@@ -223,7 +222,7 @@
     }
     .portrait {
         width: 270px;
-        height: 340px;
+        height: 380px;
     }  
     .card-area {
         width: 300px;
