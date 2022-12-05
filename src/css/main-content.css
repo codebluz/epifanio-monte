@@ -138,7 +138,7 @@
     gap: 18px;
 }
 .field-info {
-    width: 340px;
+    flex: 1;
     height: 50px;
     background-color: #fff;
     border-radius: 10px;
@@ -173,12 +173,9 @@
 }
 
 @media (max-width:1200px) {
-    .text-description {
-        font-size: 12px;
-    }
-    .personal-info {
-        flex-direction: column;
-    }
+/*     .text-description {
+        font-size: 14px;
+    } */
     #contact {
         height: auto;
         padding: 20px 0px;
@@ -190,9 +187,9 @@
     .back-portrait {
         background-position: 60%;
     }
-    .text-description {
-        font-size: 10px;
-    }
+/*     .text-description {
+        font-size: 12px;
+    } */
     #about {
         height: auto;
         padding: 20px;
@@ -202,6 +199,13 @@
     }
     .description-area {
         height: auto;
+    }
+    .personal-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .field-info {
+        width: 500px;
     }
 }
 @media (max-width: 700px) {
@@ -242,14 +246,15 @@
     }
     .speciality-description {
         width: 280px;
+        height: auto;
     }
-    .speciality-title {
+/*     .speciality-title {
         font-size: 14px;
 
     }
     .speciality-text {
         font-size: 10px;
-    }
+    } */
     .field-info {
         width: auto;
     }
