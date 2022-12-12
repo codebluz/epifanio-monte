@@ -122,8 +122,7 @@
 .contact-title {
     width: auto;
     font-size: 25px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000;
+    color: #DCD8D1;
 }
 .contact-form {
     width: 100%;
@@ -165,11 +164,11 @@
     background: #323C43;
     border-radius: 10px;
     color: #FFF;
-    border: 0px solid transparent;
+    border: 1px solid #DCD8D1;
     transition: 1s; 
 }
 .btn-send:hover {
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 /* Responsiveness */
