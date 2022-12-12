@@ -109,7 +109,7 @@
     height: 450px;
     display: flex;
     align-items: center; 
-    background-color: #DCD8D1; 
+    background-color: #323C43; 
     font-size: 17px;
 }
 .contact-area {
@@ -177,12 +177,6 @@
     #contact {
         height: auto;
         padding: 20px 0px;
-    }   
-}
-
-@media (max-width:1024px) {
-    .back-portrait {
-        background-position: 60%;
     }
     #about {
         height: auto;
@@ -193,6 +187,12 @@
     }
     .description-area {
         height: auto;
+    }   
+}
+
+@media (max-width:1024px) {
+    .back-portrait {
+        background-position: 60%;
     }
     .personal-info {
         flex-direction: column;
