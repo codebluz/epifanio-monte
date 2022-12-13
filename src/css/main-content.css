@@ -57,9 +57,23 @@
 }
 .specialities-area {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.speciality-title-area {
+    font-size: 25px;
+    font-weight: 600;
+    width: auto;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #323C43;
+    margin-bottom: 20px;
+}
+.speciality-card-area {
+    display: flex;
+    gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
 }
 .card-area {
     width: 400px;
@@ -241,6 +255,9 @@
     .speciality-description {
         width: 280px;
         height: auto;
+    }
+    .speciality-title-area {
+        margin-bottom: 30px;
     }
     .btn-send {
         width: 250px;
