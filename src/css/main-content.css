@@ -83,6 +83,7 @@
     align-items: center;
     transition: 1s;
     color: #F5F5F5;
+    
 }
 .card-area:hover {
     cursor: pointer; 
@@ -240,6 +241,7 @@
     .card-area {
         width: 300px;
         height: 400px;
+        margin-bottom: 20px;
     }
     #specialities {
         padding: 0px;
